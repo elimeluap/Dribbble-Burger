@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-nav ul li {
+  margin-right: 40px;
+}
+.main-nav ul li:last-of-type {
+  margin-right: 0;
+}
+.main-nav ul li a {
+  color: #000000;
+  font-weight: bold;
+}
+.main-nav ul li a:hover {
+  color: #7cae90;
+}
+
+.cta-nav ul li {
+  margin-right: 10px;
+}
+.cta-nav ul li:last-of-type {
+  margin-right: 0;
+}
+.cta-nav ul li a {
+  display: block;
+  background: #fef1ee;
+  color: #f06d4e;
+  padding: 0.8rem 2rem;
+  border-radius: 15px;
+}
+.cta-nav ul li a:hover {
+  background: #f06d4e;
+  color: #edeff1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-gap: 1rem;
+}
+
+.showcase-card {
+  grid-column: span 6;
+  grid-row: span 12;
+  flex-direction: column;
+}
+
+.regular-card {
+  grid-column: span 3;
+  grid-row: span 6;
+  background: #f8f6f5;
+}
+
+.card-spacing {
+  padding: 2rem;
+  border: 1px solid #dfdfdf;
+  border-radius: 40px;
+}
+
+.dots ul li {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background: none;
+  border-radius: 50%;
+}
+.dots ul li:hover {
+  background: #fef1ee;
+}
+.dots ul li a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5px;
+  height: 5px;
+  background: #dfdfdf;
+  border-radius: 50%;
+}
+.dots ul li a:hover {
+  background: #f06d4e;
+}
+
+.product-calories {
+  flex-direction: column;
+  padding: 0.5rem;
+  border: 1px solid #dfdfdf;
+  border-radius: 50%;
+}
+
+.showcase-img img {
+  width: 100%;
+}
+
+.regular-img img {
+  width: 50%;
+}
+
+.product-macros ul li {
+  margin-right: 20px;
+}
+.product-macros ul li:last-of-type {
+  margin-right: 0;
+}
+.product-macros ul li span {
+  font-weight: bold;
+}
+
+.product-desc {
+  line-height: 2;
+}
+
+.product-quantity {
+  display: inline-block;
+  background: #edeff1;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.product-quantity button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.product-quantity button:first-of-type {
+  margin-right: 10px;
+}
+.product-quantity button:last-of-type {
+  color: #7cae90;
+}
+.product-quantity span {
+  margin-right: 10px;
+}
+
+.showcase-product-price,
+.regular-product-price {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+}
+
+.showcase-product-price {
+  font-size: 32px;
+}
+
+.regular-product-price {
+  font-size: 22px;
+}
+
+.cta-btn {
+  background: #e5efe9;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.cta-btn button {
+  background: none;
+  color: #7cae90;
+  padding-left: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cart-icon {
+  color: #7cae90;
+}
+
+.cart-icon-dotted-border {
+  padding-right: 10px;
+  border-right: 1px dotted #7cae90;
+}
+
+/*# sourceMappingURL=app.css.map */
