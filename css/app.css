@@ -131,6 +131,9 @@ body {
   background: none;
   border-radius: 50%;
 }
+.dots ul li:not(:last-of-type) {
+  margin-right: 1px;
+}
 .dots ul li:hover {
   background: #fef1ee;
 }
@@ -146,6 +149,13 @@ body {
 }
 .dots ul li a:hover {
   background: #f06d4e;
+}
+
+.active {
+  background: #fef1ee !important;
+}
+.active a {
+  background: #f06d4e !important;
 }
 
 .product-calories {

@@ -156,6 +156,9 @@ body {
       height: 16px;
       background: none;
       border-radius: 50%;
+      &:not(:last-of-type) {
+        margin-right: 1px;
+      }
       &:hover {
         background: $primary-color-light;
       }
@@ -173,6 +176,13 @@ body {
         }
       }
     }
+  }
+}
+
+.active {
+  background: $primary-color-light !important;
+  a {
+    background: $primary-color !important;
   }
 }
 
